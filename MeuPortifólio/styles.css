@@ -1,0 +1,155 @@
+/* Reset básico e estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f9ff; /* Celeste claro */
+    color: #2f064c;
+    text-align: center;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #5c2a91; /* Roxo escuro */
+    color: #fff;
+    padding: 50px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(149, 14, 240, 0.3);
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+.button {
+    display: inline-block;
+    background-color: #fff;
+    color: #5c2a91; /* Roxo escuro */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(193, 10, 210, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #6110b7; /* Roxo escuro */
+    color: #fff;
+}
+
+/* Navegação */
+nav {
+    background-color: #a30b5c; /* Cinza */
+    border-bottom: 2px solid #9d0df6; /* Roxo escuro */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções principais */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(137, 7, 142, 0.2);
+}
+
+/* Imagem de projeto */
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Características e depoimentos */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: url('check-icon.png') no-repeat left center;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0f7fa; /* Celeste claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(205, 3, 255, 0.2);
+}
+
+form label {
+    margin: 10px 0 5px;
+    color: #5c2a91; /* Roxo escuro */
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #5c2a91; /* Roxo escuro */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #7e57c2; /* Roxo claro */
+}
+
+/* Rodapé */
+footer {
+    background-color: #5c2a91; /* Roxo escuro */
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
